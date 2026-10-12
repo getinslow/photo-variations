@@ -1,0 +1,455 @@
+{
+  "schema_version": 1,
+  "version": "1.2.0",
+  "captured_at_utc": "2026-10-11T08:50:29.3950352+00:00",
+  "upstream": [
+    {
+      "id": "impasto-miniature-landscape",
+      "source_repo": "GZ-L/photo-to-poster-skills",
+      "source_url": "https://github.com/GZ-L/photo-to-poster-skills",
+      "source_repo_path": "skills/impasto-miniature-landscape",
+      "source_entry_sha256": "fb1749175459bc9161f7568e49c226e57eb05ae204fdc16ea2e2f4c3c3518222",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/impasto-miniature-landscape/UPSTREAM.md",
+          "sha256": "fb1749175459bc9161f7568e49c226e57eb05ae204fdc16ea2e2f4c3c3518222"
+        },
+        {
+          "path": "references/workflows/impasto-miniature-landscape/LICENSE",
+          "sha256": "ac8576e9a96d2ed470a9453d65a7938b88ed300c432f48826c066d4cc8392918"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "scenes-gathered-zine-v1-3",
+      "source_repo": "Zeejay0/gathered-scenes-zine-skill",
+      "source_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill",
+      "source_repo_path": "skills/scenes-gathered-zine-v1-3",
+      "source_entry_sha256": "7cd307d0a272f71840ffa6146817c5793913d7886340d883c7950f1ac044d028",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/scenes-gathered-zine-v1-3/UPSTREAM.md",
+          "sha256": "7cd307d0a272f71840ffa6146817c5793913d7886340d883c7950f1ac044d028"
+        },
+        {
+          "path": "references/workflows/scenes-gathered-zine-v1-3/LICENSE",
+          "sha256": "2fed409745b33e60c3b68f15b12fde872c05496c4f224c0e39adc8979fe0ac3b"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "watercolor-travel-card",
+      "source_repo": "GZ-L/photo-to-poster-skills",
+      "source_url": "https://github.com/GZ-L/photo-to-poster-skills",
+      "source_repo_path": "skills/watercolor-travel-card",
+      "source_entry_sha256": "2ec45897d2f91766caea0726a091f1eae3023216d8c657926999e696955a0acd",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/watercolor-travel-card/UPSTREAM.md",
+          "sha256": "2ec45897d2f91766caea0726a091f1eae3023216d8c657926999e696955a0acd"
+        },
+        {
+          "path": "references/workflows/watercolor-travel-card/LICENSE",
+          "sha256": "ac8576e9a96d2ed470a9453d65a7938b88ed300c432f48826c066d4cc8392918"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "photo-relic-editorial",
+      "source_repo": "wnby/photo-relic-editorial",
+      "source_url": "https://github.com/wnby/photo-relic-editorial",
+      "source_repo_path": ".",
+      "source_entry_sha256": "9f7665be38b31c1e0f9db6d3dea10dca60b29ad71722224faf753ee5c3b18501",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/photo-relic-editorial/UPSTREAM.md",
+          "sha256": "9f7665be38b31c1e0f9db6d3dea10dca60b29ad71722224faf753ee5c3b18501"
+        },
+        {
+          "path": "references/workflows/photo-relic-editorial/LICENSE",
+          "sha256": "2d016be42668215309c81858dab0a5725845ba12cfc25ed71e178b49f08a7bc5"
+        },
+        {
+          "path": "references/workflows/photo-relic-editorial/references/afterimage-editorial-prompt.md",
+          "sha256": "729b4d4081063515178314444cd1e23a00a38510d1f73d7b25d191d09c45a2ae"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "heytea-doodle-poster",
+      "source_repo": "Hchen1218/heytea-style",
+      "source_url": "https://github.com/Hchen1218/heytea-style",
+      "source_repo_path": ".",
+      "source_entry_sha256": "875a27258cbfdadec809cbd386ee42b70d70f6ea591f09891c6ba51909451ad3",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/heytea-doodle-poster/UPSTREAM.md",
+          "sha256": "875a27258cbfdadec809cbd386ee42b70d70f6ea591f09891c6ba51909451ad3"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/LICENSE",
+          "sha256": "d83ab8f95fba890d9f50e257597155fa327197a615c6ba215821b3b089528a30"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/desktop-pet-character-modes.md",
+          "sha256": "3be859d816fc58317ef0b15f3d827e31fb593c3f2d3c62893af6848d22e5d2c4"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/desktop-pet-environment.md",
+          "sha256": "047e8b25021755636e81248550220baf01c58913eb5f9005c2d3b3338b39bd8e"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/desktop-pet-pack.md",
+          "sha256": "6b37c797ba92b51e7e3e8cb0de80abf657a12a2b751b04e0041affc41dd8991a"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/desktop-pet-workflow.md",
+          "sha256": "8c378c402ef0214b134c812aa3345d1809d632938fe56870eb2751f6aeba59c6"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/evaluation.md",
+          "sha256": "042df7ec7633c5cf9c9780f8732d156c64869c9c40b911fda473124ba5731ae6"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/flavor-monster-v3-phase-recipe.json",
+          "sha256": "98afeb80d6f6bb8d63bccd9b553e73619ee59c5c3c3966125c17add9d705dafd"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/lettering-guide.md",
+          "sha256": "7aebd85153be217028c8da2c83c21f14d59b624f542dfd1a8ec02c5b63cec1fa"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/mixed-media-style-guide.md",
+          "sha256": "51f911a9cddab101eef4768eef991e0546a86dd489b3acb3ca60fa7b42674101"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/monster-poster-workflow.md",
+          "sha256": "2f2d727c86884b8144f05f14069bf68ba1f377b20a610a37761582ce09f9b402"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/references/style-guide.md",
+          "sha256": "1839414e03f7eac385726884c36f8d37767c8dc3cfa66c707073ba533ae06bca"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/scripts/build_title_reference_sheet.py",
+          "sha256": "610a88cdbe4c2ed3b884e7755d95de558bc1cbbc29eca481f4708f84a476f33e"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/scripts/composite_title_layer.py",
+          "sha256": "be978269b2f40f9df4371c9bba5fcab01977ece6a354c3f61c7cf1540eb67f20"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/ASSET-NOTICE.md",
+          "sha256": "3012540e7c506b0da9805a1ca7f35d13d07daab4af2dc2d956d8edf37a18fc19"
+        },
+        {
+          "path": "references/workflows/heytea-doodle-poster/requirements.txt",
+          "sha256": "1c803ca04270f3acd340ace239b1e86931871344e0070b4f6db9a59ae56336cb"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "photo-abstract-editorial",
+      "source_repo": "ZzzLc0405/photo-abstract-editorial",
+      "source_url": "https://github.com/ZzzLc0405/photo-abstract-editorial/tree/49e55073d6d0330274d31f75d27f5dd6eb35fd6d",
+      "source_repo_path": ".",
+      "source_entry_sha256": "83818269e300ec307e79eb23ea273646200b181cc638c70a28fdfcb554235f14",
+      "entry_renamed_without_content_change": false,
+      "files": [],
+      "distribution": "external_reference",
+      "source_commit": "49e55073d6d0330274d31f75d27f5dd6eb35fd6d",
+      "original_files_not_redistributed": true,
+      "remote_files": [
+        {
+          "path": "SKILL.md",
+          "sha256": "83818269e300ec307e79eb23ea273646200b181cc638c70a28fdfcb554235f14"
+        },
+        {
+          "path": "LICENSE.md",
+          "sha256": "9b4c0f3e94ceecf22c7a632d794d0e4e4219b89e0c80769568cdac2a16a7d91c"
+        },
+        {
+          "path": "references/photo-abstract-editorial-prompt.en.md",
+          "sha256": "3c1160c2d4491be946c4a4ecb1c3430f68374e096252411008868b0607f3bf49"
+        },
+        {
+          "path": "references/photo-abstract-editorial-prompt.zh-CN.md",
+          "sha256": "a9652d46202e1153490387dc222b0a9b1918aa88706d5d7dd45cb16d599ad051"
+        }
+      ]
+    },
+    {
+      "id": "mono-color",
+      "source_repo": "yanliudesign/mono-color-skill",
+      "source_url": "https://github.com/yanliudesign/mono-color-skill",
+      "source_repo_path": ".",
+      "source_entry_sha256": "8274bc1f30a92a9dc715c03c3fb9aeaa060fb5a12fd58dfe8d977ae98a26bd76",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/mono-color/UPSTREAM.md",
+          "sha256": "8274bc1f30a92a9dc715c03c3fb9aeaa060fb5a12fd58dfe8d977ae98a26bd76"
+        },
+        {
+          "path": "references/workflows/mono-color/LICENSE",
+          "sha256": "2025880f6441e121c76c01bc5996e84a7498d9d5aa7222a10400d303bdd043cb"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/BOARD-DIRECTION.md",
+          "sha256": "84411f1a4d410fa324bc57b2693abfe0380090042232c64d46f8152a51b99308"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/carriers.json",
+          "sha256": "32ad6bd5917c8d5ad4b0c8f78006848f941489649824f0857a7a94685914a8d7"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/colors.json",
+          "sha256": "e299d6b4a2ec36e2e59b7095b85bae5f13609f505d21c9a83561088f7c446b48"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/compositions.json",
+          "sha256": "8faec6d102a6dcf15a465123f00265609afe271dd2998baa0d56f0fb39105703"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/imperfections.json",
+          "sha256": "e281a1c7fb183af973179a7588df5745527a231462681797850227e791372715"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/rhythm.json",
+          "sha256": "02c8c4ca0bba218feeca7311b35b61362972bded129f050b288a384d61c0c920"
+        },
+        {
+          "path": "references/workflows/mono-color/design-system/typography.json",
+          "sha256": "b20f558444aab2c93b6339b76aa3178ae9e04e25eed1059cd2db8044733db26f"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/aubergine.svg",
+          "sha256": "49754cc72ecb773a2fac8ef89aa9f288c0a10df01c3eea04116d10528cb16b4e"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/botanical-green-oxblood.svg",
+          "sha256": "02858fa494c1e5b06907b7292fbeb944322021c6ebf7f35204f5c0f2f458a640"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/botanical-green.svg",
+          "sha256": "4b378335b4f7766a2042e2b0e5935d1af159fcc9cb2355e57cf02dcb60225db6"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/charcoal-signal-red.svg",
+          "sha256": "88277383e742dd158f26743e940099800c5a9246beb75c5ed0d438d4fff92e0a"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/charcoal.svg",
+          "sha256": "7b4fd323c288ebefc20f633a1f13ada40fee4d00a501037071225c411f4cdb23"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/cobalt-terracotta.svg",
+          "sha256": "8e4457d1206e3e98360ec459ebe229caa9b9f68f10247996a875e8be8747ce8f"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/cobalt.svg",
+          "sha256": "0451e74d5bf7497292c3b28635fab1d78ce34936719ae511ae025b8a60b863c0"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/cyan-brick-red.svg",
+          "sha256": "6ccf50472402a2f9dfcafa170160e8f81a6ffaddaae59d591b5a8484fb122ca6"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/electric-blue-carbon.svg",
+          "sha256": "58bbb268e6b0125c73ca5aae44751a07100e0facfad9cb2a9b21ff338fd5b3fc"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/mint-green-charcoal.svg",
+          "sha256": "a92c78b706575fd33bf42ac404dc6f5cdc639597ecc3e87bc1ece5920ac510eb"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/mint-green.svg",
+          "sha256": "c9e53d5d306467f00cd62739249e346c9557fb6e25ce9de0783c5243670f0223"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/powder-blue-signal-red.svg",
+          "sha256": "901ac3afa37b468898e8206186e8ae3caa1f49e8280efe5a69fee80c4c09a919"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/royal-blue.svg",
+          "sha256": "d847dfbc3d721c7fccaad6c534ed335db3578f08a74ca297e242285731aeb5e8"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/signal-red.svg",
+          "sha256": "995ce93dd4769f4a62538b69e80698fb76ca78ee3d1587ca3dcd1c1d41b2c01b"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/tangerine-slate-blue.svg",
+          "sha256": "e3ac0b792342425621bce345f893dfd5f60a06c5f05961f5c7a0377d521c7c46"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/terracotta.svg",
+          "sha256": "90ab477466acce0d1630a5ea9801f1ba79e9e3e0d970d58c3e338872fdb06c5d"
+        },
+        {
+          "path": "references/workflows/mono-color/swatches/ultramarine-safety-orange.svg",
+          "sha256": "062f170d2e3c7937c1a8fa27bec5844700d2608d2a73e6c4ef3598e7337ec8c7"
+        },
+        {
+          "path": "references/workflows/mono-color/ASSET-LICENSE.md",
+          "sha256": "1a02a8b7a3bae6b21bb5182d6865a5d4db66777a8c5c064c64c84756eebf257f"
+        }
+      ],
+      "distribution": "bundled"
+    },
+    {
+      "id": "xxd-panel-115",
+      "source_repo": "nevertoday/xxd-panel-115",
+      "source_url": "https://github.com/nevertoday/xxd-panel-115",
+      "source_repo_path": ".",
+      "source_entry_sha256": "f225e304e1b8cb8a30333d079ec135ae775d624365dfc1328c90a2d253f787f9",
+      "entry_renamed_without_content_change": true,
+      "files": [
+        {
+          "path": "references/workflows/xxd-panel-115/UPSTREAM.md",
+          "sha256": "f225e304e1b8cb8a30333d079ec135ae775d624365dfc1328c90a2d253f787f9"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/LICENSE",
+          "sha256": "ffcca38841adb694b6f380647e15f17c446a4d1656fed51a1e2041d064c94cc8"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/original-prompt/ar.md",
+          "sha256": "0c98814951ccd8d03ac67d3385cda4fbe0f39449b42a95ccff42388eab6b7263"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/original-prompt/en.md",
+          "sha256": "69173bdaf9e89d8c92d9086c93c155649da010c969c99a8d10bcae6fc872937b"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/original-prompt/ja.md",
+          "sha256": "5ef488b8e94757cf7d297dd16acc6ec19590c1ef0b304270158c1ecfade458af"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/original-prompt/ko.md",
+          "sha256": "db93bc19ff1c8aa770f66a4264cd7a0af2dde64a66ad13fb3fc241d78dbbee07"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/original-prompt/zh-CN.md",
+          "sha256": "2d1f6ed027dcc6844449a75f9491f7b30877950ee4560f7591b1d20dcb67bdeb"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/runtime-preferences.md",
+          "sha256": "44155888e7693f1afbb24d5f6948b13d51b0114bdb61e07e8ae3b7da8a5bf978"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/sample-workflow.md",
+          "sha256": "588eb5b18fd62c01c32f489722621ed0974f77ffe55a1453fd6e01d43f41a742"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/soldier-runtime.md",
+          "sha256": "7b19ac1fc37f5b75ee19a170016abc04c2ce3be0c6318450f372887cffd14d5b"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/xxd-panel-115-prompt.en.md",
+          "sha256": "92fecf2526944669cce3105c668ef2c95c1e269b1554ce91891d1993ad67db33"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/references/xxd-panel-115-prompt.zh-CN.md",
+          "sha256": "c31b7f3bf462e6e48bd3370905cbfb80eae74df8d1ea5f51798bc3063f47c631"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/scripts/compose_panel.py",
+          "sha256": "42b5901c6fdc06334fc99c101952fa5af82b050edd8f52ffa878d68407e33f2a"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/scripts/configured_imagegen.py",
+          "sha256": "34dfb63b132182e9913dc04b8e48619c09e9d668dbd634aafbf1baec34eedb79"
+        },
+        {
+          "path": "references/workflows/xxd-panel-115/scripts/panel_preferences.py",
+          "sha256": "676ffad66be17b08c6229653f3518dba4bf80422fce04b8fc576db5dad81d13c"
+        }
+      ],
+      "distribution": "bundled"
+    }
+  ],
+  "excluded": [
+    "user photographs and results",
+    "upstream example raster images",
+    "private-assets",
+    "pay images",
+    "desktop pet runtime",
+    "nested SKILL.md"
+  ],
+  "integration_changes": [
+    "Entry renamed to UPSTREAM.md; file content unchanged",
+    "Host project output replaces upstream machine-specific Desktop roots",
+    "Heytea automatic mode preserves existing source lettering and adds no new text",
+    "XXD automatic interface defines explicit runtime defaults; external cleanup still required",
+    {
+      "version": "1.0.1",
+      "summary": "Automatic scenic travel portrait preference; explicit styles and purposes remain authoritative.",
+      "new_optional_observation": "photo_context",
+      "new_visual_feature": "scenic_setting",
+      "context_scores": {
+        "watercolor-travel-card": 8,
+        "heytea-doodle-poster": -3
+      },
+      "immutable_upstream_files_changed": false
+    },
+    {
+      "version": "1.1.0",
+      "summary": "Photo Variations branding, display-name/legacy-alias resolution, and external-only abstract source with real remote-reader gate.",
+      "immutable_bundled_upstream_files_changed": false,
+      "abstract_original_files_redistributed": false
+    }
+  ],
+  "helpers": [
+    {
+      "id": "xxd-strip-ai-meta",
+      "source_url": "https://github.com/nevertoday/xxd-strip-ai-meta",
+      "commit": "15d75570227a4a03cb349e963302b49d69dd175d",
+      "license": "MIT",
+      "files": [
+        {
+          "path": "references/helpers/xxd-strip-ai-meta/LICENSE",
+          "sha256": "5a107c60296d78a76ddefb4caafcd41517cb1fd8c555b2557d16f65fe50f6108"
+        },
+        {
+          "path": "references/helpers/xxd-strip-ai-meta/README.md",
+          "sha256": "0ebeb009cb59ad53d23d445c918235324c82ca8c8fe1988c4ae366709e1e389d"
+        },
+        {
+          "path": "references/helpers/xxd-strip-ai-meta/UPSTREAM.md",
+          "sha256": "bad2e7e1f6a7fb83e47a3c2f62eb596f1e04e7b3ac8e16dd5184c7c3a483e88f"
+        },
+        {
+          "path": "references/helpers/xxd-strip-ai-meta/scripts/clean_image_provenance.py",
+          "sha256": "36ca24d864cca73c6d034bbd62543303832c1e95cc34f2bf7d5b1e15c707660c"
+        }
+      ]
+    }
+  ],
+  "known_external_dependencies": [
+    "image-generation/editing capability",
+    "Python 3.10+ and ExifTool for XXD metadata cleanup",
+    "Host online document reader for pinned photo-abstract-editorial workflow",
+    "Python 3.10+ or verified host metadata writer for invisible output attribution"
+  ],
+  "known_nonruntime_missing_reference": "xxd-panel-115/references/original-prompt/README.md",
+  "integration_updated_at_utc": "2026-10-12T05:43:23.293026+00:00",
+  "skill_name": "photo-variations",
+  "display_name": "变奏 · Photo Variations",
+  "metadata_credit": {
+    "required": true,
+    "registry": "references/creator-registry.json",
+    "helper": "scripts/credit_artwork.py",
+    "added_after": "generation, quality review, compositing/optimization and XXD cleanup"
+  }
+}

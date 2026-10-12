@@ -1,0 +1,4 @@
+interface:
+  display_name: "变奏 · Photo Variations"
+  short_description: "分析照片主体、构图和用途，从八种照片艺术工作流中选择并生成结果"
+  default_prompt: "用 $photo-variations 自动选择适合这张照片的风格，并生成一张成品。"

@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "meaning": "所用工作流的原署名或已核实发布者来源，不表示照片作者、输出版权或唯一实际作者。",
+  "workflows": {
+    "watercolor-travel-card": {
+      "creator": "GZ-L",
+      "creator_role": "upstream_copyright_holder",
+      "attribution_verified": true,
+      "evidence": [
+        "references/workflows/watercolor-travel-card/LICENSE:3"
+      ],
+      "source_url": "https://github.com/GZ-L/photo-to-poster-skills"
+    },
+    "impasto-miniature-landscape": {
+      "creator": "GZ-L",
+      "creator_role": "upstream_copyright_holder",
+      "attribution_verified": true,
+      "evidence": [
+        "references/workflows/impasto-miniature-landscape/LICENSE:3"
+      ],
+      "source_url": "https://github.com/GZ-L/photo-to-poster-skills"
+    },
+    "photo-relic-editorial": {
+      "creator": "wnby",
+      "creator_role": "upstream_copyright_holder",
+      "attribution_verified": true,
+      "evidence": [
+        "references/workflows/photo-relic-editorial/LICENSE:3"
+      ],
+      "source_url": "https://github.com/wnby/photo-relic-editorial"
+    },
+    "heytea-doodle-poster": {
+      "creator": "heytea-style contributors",
+      "creator_role": "upstream_contributors",
+      "attribution_verified": true,
+      "named_primary_author_verified": false,
+      "evidence": [
+        "references/workflows/heytea-doodle-poster/LICENSE:3",
+        "references/workflows/heytea-doodle-poster/ASSET-NOTICE.md:12"
+      ],
+      "note": "沿用集体署名，不将仓库所有者替换成唯一作者。",
+      "source_url": "https://github.com/Hchen1218/heytea-style"
+    },
+    "mono-color": {
+      "creator": "Yan Liu",
+      "creator_role": "upstream_copyright_holder",
+      "attribution_verified": true,
+      "evidence": [
+        "references/workflows/mono-color/LICENSE:3",
+        "references/workflows/mono-color/ASSET-LICENSE.md:3"
+      ],
+      "source_url": "https://github.com/yanliudesign/mono-color-skill"
+    },
+    "scenes-gathered-zine-v1-3": {
+      "creator": "Zeejay0",
+      "creator_role": "upstream_creator",
+      "attribution_verified": true,
+      "evidence": [
+        "references/workflows/scenes-gathered-zine-v1-3/UPSTREAM.md:8",
+        "references/workflows/scenes-gathered-zine-v1-3/UPSTREAM.md:382"
+      ],
+      "source_url": "https://github.com/Zeejay0/gathered-scenes-zine-skill"
+    },
+    "photo-abstract-editorial": {
+      "creator": "@AM.",
+      "creator_role": "upstream_creator",
+      "attribution_verified": true,
+      "source_url": "https://github.com/ZzzLc0405/photo-abstract-editorial/blob/49e55073d6d0330274d31f75d27f5dd6eb35fd6d/LICENSE.md",
+      "evidence": [
+        "Pinned upstream LICENSE.md:22,39",
+        "references/external/photo-abstract-editorial.md:3"
+      ],
+      "note": "采用原文要求的自署名，不猜测账号对应实名。"
+    },
+    "xxd-panel-115": {
+      "creator": "nevertoday（上游发布者）",
+      "creator_role": "upstream_publisher",
+      "attribution_verified": true,
+      "author_verified": false,
+      "evidence": [
+        "bundle-manifest.json:311-312",
+        "THIRD-PARTY-NOTICES.md"
+      ],
+      "source_url": "https://github.com/nevertoday/xxd-panel-115",
+      "note": "作者未明，标明发布者身份；许可模板的示例公司不是作者。"
+    }
+  }
+}

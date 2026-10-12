@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Preserve vendored source and recorded SHA-256 exactly, including original newlines.
+skills/photo-variations/references/workflows/** -text
+skills/photo-variations/references/helpers/** -text
+
+*.png -text

@@ -1,0 +1,374 @@
+{
+  "schema_version": 1,
+  "routes": [
+    {
+      "id": "watercolor-travel-card",
+      "display_name": "水彩旅行卡",
+      "license_class": "mit",
+      "purpose": "travel_card",
+      "aliases": [
+        "水彩",
+        "水彩旅行卡"
+      ],
+      "subject_scores": {
+        "landscape": 5,
+        "architecture": 4,
+        "person": 2,
+        "group": 4,
+        "food": 2,
+        "object": 1,
+        "urban_scene": 2
+      },
+      "feature_scores": {
+        "clear_silhouette": 2,
+        "quiet_regions": 2,
+        "horizon": 1,
+        "legible_text": 0,
+        "documentary_text": -6
+      },
+      "preserves_photo_region": false,
+      "entry": "references/workflows/watercolor-travel-card/UPSTREAM.md",
+      "license_file": "references/workflows/watercolor-travel-card/LICENSE",
+      "required_reads": [],
+      "purpose_scores": {
+        "travel_card": 20,
+        "miniature_art": 6,
+        "quiet_memory": 8,
+        "playful_poster": 5,
+        "print_poster": 3,
+        "zine_collage": 6,
+        "minimal_art": 3,
+        "crayon_diary": 8
+      },
+      "context_scores": {
+        "travel_scenic_portrait": 8
+      }
+    },
+    {
+      "id": "impasto-miniature-landscape",
+      "display_name": "厚涂油画",
+      "license_class": "mit",
+      "purpose": "miniature_art",
+      "aliases": [
+        "厚涂",
+        "厚涂微缩",
+        "油画",
+        "厚涂微缩油画",
+        "厚涂微缩景观",
+        "浮雕感厚涂油画"
+      ],
+      "subject_scores": {
+        "landscape": 5,
+        "architecture": 2,
+        "person": 1,
+        "group": 0,
+        "food": 2,
+        "object": 2,
+        "urban_scene": 2
+      },
+      "feature_scores": {
+        "layered_terrain": 4,
+        "strong_color_blocks": 3,
+        "clear_silhouette": 1,
+        "organic_shapes": 2,
+        "legible_text": 0,
+        "documentary_text": -6
+      },
+      "preserves_photo_region": false,
+      "entry": "references/workflows/impasto-miniature-landscape/UPSTREAM.md",
+      "license_file": "references/workflows/impasto-miniature-landscape/LICENSE",
+      "required_reads": [],
+      "purpose_scores": {
+        "travel_card": 6,
+        "miniature_art": 20,
+        "quiet_memory": 1,
+        "playful_poster": 8,
+        "print_poster": 1,
+        "zine_collage": 2,
+        "minimal_art": 0,
+        "crayon_diary": 6
+      }
+    },
+    {
+      "id": "photo-relic-editorial",
+      "display_name": "纸上留影",
+      "license_class": "mit",
+      "purpose": "quiet_memory",
+      "aliases": [
+        "纸上留影",
+        "留影"
+      ],
+      "subject_scores": {
+        "landscape": 2,
+        "architecture": 5,
+        "person": 2,
+        "group": 3,
+        "food": 1,
+        "object": 1,
+        "urban_scene": 3
+      },
+      "feature_scores": {
+        "architectural_layers": 3,
+        "clear_silhouette": 3,
+        "horizon": 2,
+        "strong_axis": 1,
+        "legible_text": 1,
+        "repeated_shapes": 1,
+        "documentary_text": 6
+      },
+      "preserves_photo_region": true,
+      "entry": "references/workflows/photo-relic-editorial/UPSTREAM.md",
+      "license_file": "references/workflows/photo-relic-editorial/LICENSE",
+      "required_reads": [
+        "references/workflows/photo-relic-editorial/references/afterimage-editorial-prompt.md"
+      ],
+      "purpose_scores": {
+        "travel_card": 8,
+        "miniature_art": 3,
+        "quiet_memory": 20,
+        "playful_poster": 1,
+        "print_poster": 5,
+        "zine_collage": 8,
+        "minimal_art": 14,
+        "crayon_diary": 3
+      }
+    },
+    {
+      "id": "heytea-doodle-poster",
+      "display_name": "小人涂鸦",
+      "license_class": "mit",
+      "purpose": "playful_poster",
+      "aliases": [
+        "小人涂鸦",
+        "小人互动",
+        "趣味海报",
+        "实物与小人互动"
+      ],
+      "subject_scores": {
+        "person": 5,
+        "food": 5,
+        "object": 6,
+        "architecture": 0,
+        "landscape": 0,
+        "urban_scene": 0,
+        "group": 0
+      },
+      "feature_scores": {
+        "visible_action": 5,
+        "clear_silhouette": 3,
+        "quiet_regions": 1,
+        "dense_detail": -2,
+        "legible_text": 0
+      },
+      "preserves_photo_region": false,
+      "entry": "references/workflows/heytea-doodle-poster/UPSTREAM.md",
+      "license_file": "references/workflows/heytea-doodle-poster/LICENSE",
+      "required_reads": [
+        "references/workflows/heytea-doodle-poster/references/style-guide.md",
+        "references/workflows/heytea-doodle-poster/references/evaluation.md"
+      ],
+      "needs_single_subject": true,
+      "adapter": "ordinary_poster_no_added_text_preserve_existing_photo_lettering",
+      "purpose_scores": {
+        "travel_card": 3,
+        "miniature_art": 4,
+        "quiet_memory": 1,
+        "playful_poster": 20,
+        "print_poster": 5,
+        "zine_collage": 3,
+        "minimal_art": 4,
+        "crayon_diary": 5
+      },
+      "context_scores": {
+        "travel_scenic_portrait": -3
+      }
+    },
+    {
+      "id": "mono-color",
+      "display_name": "单色/双色印刷",
+      "license_class": "mit",
+      "purpose": "print_poster",
+      "aliases": [
+        "mono-color-skill",
+        "单色印刷",
+        "双色印刷",
+        "单色",
+        "双色",
+        "单色或双色印刷"
+      ],
+      "subject_scores": {
+        "urban_scene": 5,
+        "architecture": 3,
+        "person": 2,
+        "group": 2,
+        "food": 1,
+        "object": 3,
+        "landscape": 2
+      },
+      "feature_scores": {
+        "repeated_shapes": 5,
+        "strong_axis": 3,
+        "strong_color_blocks": 2,
+        "clear_silhouette": 1,
+        "legible_text": -1,
+        "documentary_text": -3
+      },
+      "preserves_photo_region": false,
+      "entry": "references/workflows/mono-color/UPSTREAM.md",
+      "license_file": "references/workflows/mono-color/LICENSE",
+      "required_reads": [
+        "references/workflows/mono-color/design-system/colors.json",
+        "references/workflows/mono-color/design-system/typography.json",
+        "references/workflows/mono-color/design-system/compositions.json",
+        "references/workflows/mono-color/design-system/carriers.json",
+        "references/workflows/mono-color/design-system/rhythm.json",
+        "references/workflows/mono-color/design-system/imperfections.json"
+      ],
+      "purpose_scores": {
+        "travel_card": 4,
+        "miniature_art": 3,
+        "quiet_memory": 6,
+        "playful_poster": 3,
+        "print_poster": 20,
+        "zine_collage": 10,
+        "minimal_art": 16,
+        "crayon_diary": 2
+      }
+    },
+    {
+      "id": "scenes-gathered-zine-v1-3",
+      "display_name": "拾景拼贴",
+      "license_class": "personal-noncommercial",
+      "purpose": "zine_collage",
+      "aliases": [
+        "拾景",
+        "杂志拼贴",
+        "实景拼贴",
+        "拾景杂志拼贴"
+      ],
+      "subject_scores": {
+        "landscape": 3,
+        "architecture": 2,
+        "person": 2,
+        "group": 5,
+        "food": 3,
+        "object": 2,
+        "urban_scene": 3
+      },
+      "feature_scores": {
+        "organic_shapes": 2,
+        "quiet_regions": 2,
+        "dense_detail": 1,
+        "warm_memory": 2,
+        "strong_color_blocks": 1
+      },
+      "preserves_photo_region": true,
+      "entry": "references/workflows/scenes-gathered-zine-v1-3/UPSTREAM.md",
+      "license_file": "references/workflows/scenes-gathered-zine-v1-3/LICENSE",
+      "required_reads": [],
+      "purpose_scores": {
+        "travel_card": 14,
+        "miniature_art": 4,
+        "quiet_memory": 12,
+        "playful_poster": 6,
+        "print_poster": 4,
+        "zine_collage": 20,
+        "minimal_art": 8,
+        "crayon_diary": 10
+      }
+    },
+    {
+      "id": "photo-abstract-editorial",
+      "display_name": "极简抽象",
+      "license_class": "noncommercial",
+      "purpose": "minimal_art",
+      "aliases": [
+        "极简抽象",
+        "抽象",
+        "照片极简抽象"
+      ],
+      "subject_scores": {
+        "landscape": 4,
+        "architecture": 3,
+        "person": 2,
+        "group": 2,
+        "food": 1,
+        "object": 2,
+        "urban_scene": 3
+      },
+      "feature_scores": {
+        "strong_axis": 5,
+        "strong_color_blocks": 4,
+        "horizon": 2,
+        "clear_silhouette": 2
+      },
+      "preserves_photo_region": true,
+      "entry": "references/external/photo-abstract-editorial.md",
+      "license_file": "https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/49e55073d6d0330274d31f75d27f5dd6eb35fd6d/LICENSE.md",
+      "required_reads": [
+        "https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/49e55073d6d0330274d31f75d27f5dd6eb35fd6d/SKILL.md",
+        "https://raw.githubusercontent.com/ZzzLc0405/photo-abstract-editorial/49e55073d6d0330274d31f75d27f5dd6eb35fd6d/references/photo-abstract-editorial-prompt.zh-CN.md"
+      ],
+      "purpose_scores": {
+        "travel_card": 6,
+        "miniature_art": 2,
+        "quiet_memory": 16,
+        "playful_poster": 2,
+        "print_poster": 11,
+        "zine_collage": 10,
+        "minimal_art": 20,
+        "crayon_diary": 3
+      },
+      "requires_remote_reader": true
+    },
+    {
+      "id": "xxd-panel-115",
+      "display_name": "粉彩拼贴",
+      "license_class": "polyform-noncommercial",
+      "purpose": "crayon_diary",
+      "aliases": [
+        "蜡笔拼贴",
+        "XXD",
+        "xxd",
+        "蜡笔材料拼贴"
+      ],
+      "subject_scores": {
+        "landscape": 3,
+        "architecture": 2,
+        "person": 4,
+        "group": 4,
+        "food": 5,
+        "object": 4,
+        "urban_scene": 2
+      },
+      "feature_scores": {
+        "warm_memory": 4,
+        "visible_action": 1,
+        "clear_silhouette": 1,
+        "organic_shapes": 1
+      },
+      "preserves_photo_region": true,
+      "entry": "references/workflows/xxd-panel-115/UPSTREAM.md",
+      "license_file": "references/workflows/xxd-panel-115/LICENSE",
+      "required_reads": [
+        "references/workflows/xxd-panel-115/references/original-prompt/zh-CN.md",
+        "references/workflows/xxd-panel-115/references/soldier-runtime.md",
+        "references/workflows/xxd-panel-115/references/runtime-preferences.md"
+      ],
+      "required_workflows": [
+        "xxd-strip-ai-meta"
+      ],
+      "adapter": "top_bottom_3x4_50_50_one_png_no_added_text",
+      "purpose_scores": {
+        "travel_card": 10,
+        "miniature_art": 5,
+        "quiet_memory": 6,
+        "playful_poster": 12,
+        "print_poster": 2,
+        "zine_collage": 12,
+        "minimal_art": 3,
+        "crayon_diary": 20
+      }
+    }
+  ]
+}
